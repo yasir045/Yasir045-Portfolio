@@ -1,0 +1,79 @@
+.bg-img{
+    z-index: -1;
+    width: 98vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+body{
+    height: 500px;
+}
+.component{
+    background-color: #695aa6;
+}
+.navbar-brand{
+    font-family: font;
+    font-size:30PX;
+    font-weight:bolder;
+}
+.nav-link{
+    font-family: font;
+    color: #695aa6;
+    
+}
+.nav-link:hover{
+    color: #695aa6;
+}
+@font-face {
+    font-family: font;
+    src: url(font1.ttf);
+}
+.intro{
+    font-family: font;
+    font-size:65px;
+    font-weight: 1000;
+}
+.btn{
+    background-color: #695aa6;
+    border-radius: 50px;
+}
+.section-title{
+    color: #695aa6;
+    font-family: font;
+    font-weight: bold;
+}
+.card-title{
+    color: #695aa6;
+    font-weight:bold;
+}
+.portfolio-card-overlay-container {
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio-card-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 90, 166, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-card-overlay {
+    opacity: 1;
+}
+
+.portfolio-card-caption {
+    color: white;
+    text-align: center;
+}
+.margin{
+    margin-top: 255px;
+}
